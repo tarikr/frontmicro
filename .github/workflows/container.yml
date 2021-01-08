@@ -5,7 +5,6 @@ on:
        - main
      paths:
        - packages/container
-
 defaults:
     run:
        working-directory: packages/container
