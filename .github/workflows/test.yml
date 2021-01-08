@@ -7,8 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         env:
-          PRODUCTION_DOMAIN: ${‌{ secrets.PRODUCTION_DOMAIN }}
-
+      
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
