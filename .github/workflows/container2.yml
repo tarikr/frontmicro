@@ -1,7 +1,5 @@
 name: deploy-container2
-on: [push]
-
-push:
+on: [push]:
      branches:
        - main
      paths:
