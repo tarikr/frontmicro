@@ -1,11 +1,5 @@
 name: test
-on:
-push:
- paths:
-       - 'packages/container/**'
-defaults:
-    run:
-       working-directory: packages/container
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
