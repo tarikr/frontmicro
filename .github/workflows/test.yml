@@ -1,5 +1,7 @@
-name: deploy-container
-on: [push]
+name: deploy-container1
+
+on:
+  push:
     branches:
       - master
     paths:
